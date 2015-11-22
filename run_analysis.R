@@ -86,5 +86,7 @@ for(i in 1:length(cols)) {
 }
 colnames(tidyData) <- cols
 
+print(tidyData)
+
 
 
