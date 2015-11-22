@@ -13,86 +13,86 @@ For the above-mentioned measurements, the mean and standard deviation (std) were
 The features were normalized and bounded in the interval [-1, 1]. 
 
 Variables in the tidy data set, along with their units of measurement:
-*Participant					              unitless
-*Activity					                unitless
-*Mean(tBodyAcc-mean-X)			        g
-*Mean(tBodyAcc-mean-Y)			        g
-*Mean(tBodyAcc-mean-Z)			        g
-*Mean(tGravityAcc-mean-X)			    g
-*Mean(tGravityAcc-mean-Y)			    g
-*Mean(tGravityAcc-mean-Z)			    g
-*Mean(tBodyAccJerk-mean-X)		      g/sec
-*Mean(tBodyAccJerk-mean-Y)		      g/sec
-*Mean(tBodyAccJerk-mean-Z)		      g/sec
-*Mean(tBodyGyro-mean-X)			      rad/sec			
-*Mean(tBodyGyro-mean-Y)			      rad/sec
-*Mean(tBodyGyro-mean-Z)			      rad/sec
-*Mean(tBodyGyroJerk-mean-X)		    rad/sec^2
-*Mean(tBodyGyroJerk-mean-Y)		    rad/sec^2
-*Mean(tBodyGyroJerk-mean-Z)		    rad/sec^2
-*Mean(tBodyAccMag-mean)			      unitless
-*Mean(tGravityAccMag-mean)		      unitless
-*Mean(tBodyAccJerkMag-mean)		    unitless
-*Mean(tBodyGyroMag-mean)		        unitless
-*Mean(tBodyGyroJerkMag-mean)		    unitless
-*Mean(fBodyAcc-mean-X)
-*Mean(fBodyAcc-mean-Y)
-*Mean(fBodyAcc-mean-Z)
-*Mean(fBodyAcc-meanFreq-X)
-*Mean(fBodyAcc-meanFreq-Y)
-*Mean(fBodyAcc-meanFreq-Z)
-*Mean(fBodyAccJerk-mean-X)
-*Mean(fBodyAccJerk-mean-Y)
-*Mean(fBodyAccJerk-mean-Z)
-*Mean(fBodyAccJerk-meanFreq-X)
-*Mean(fBodyAccJerk-meanFreq-Y)
-*Mean(fBodyAccJerk-meanFreq-Z)
-*Mean(fBodyGyro-mean-X)
-*Mean(fBodyGyro-mean-Y)
-*Mean(fBodyGyro-mean-Z)
-*Mean(fBodyGyro-meanFreq-X)
-*Mean(fBodyGyro-meanFreq-Y)
-*Mean(fBodyGyro-meanFreq-Z)
-*Mean(fBodyAccMag-mean)
-*Mean(fBodyAccMag-meanFreq)
-*Mean(fBodyAccJerkMag-mean)
-*Mean(fBodyAccJerkMag-meanFreq)
-*Mean(fBodyGyroMag-mean)
-*Mean(fBodyGyroMag-meanFreq)
-*Mean(fBodyGyroJerkMag-mean)
-*Mean(fBodyGyroJerkMag-meanFreq)
-*Mean(tBodyAcc-std-X)			      g
-*Mean(tBodyAcc-std-Y)			      g
-*Mean(tBodyAcc-std-Z)			      g
-*Mean(tGravityAcc-std-X)			    g
-*Mean(tGravityAcc-std-Y)			    g
-*Mean(tGravityAcc-std-Z)			    g
-*Mean(tBodyAccJerk-std-X)			  g/sec
-*Mean(tBodyAccJerk-std-Y)			  g/sec
-*Mean(tBodyAccJerk-std-Z)			  g/sec
-*Mean(tBodyGyro-std-X)			      rad/sec
-*Mean(tBodyGyro-std-Y)			      rad/sec
-*Mean(tBodyGyro-std-Z)			      rad/sec
-*Mean(tBodyGyroJerk-std-X)		    rad/sec^2
-*Mean(tBodyGyroJerk-std-Y)		    rad/sec^2
-*Mean(tBodyGyroJerk-std-Z)			  rad/sec^2
-*Mean(tBodyAccMag-std)			      unitless
-*Mean(tGravityAccMag-std)			  unitless
-*Mean(tBodyAccJerkMag-std)		    unitless
-*Mean(tBodyGyroMag-std)			    unitless
-*Mean(tBodyGyroJerkMag-std)		  unitless
-*Mean(fBodyAcc-std-X)
-*Mean(fBodyAcc-std-Y)
-*Mean(fBodyAcc-std-Z)
-*Mean(fBodyAccJerk-std-X)
-*Mean(fBodyAccJerk-std-Y)
-*Mean(fBodyAccJerk-std-Z)
-*Mean(fBodyGyro-std-X)
-*Mean(fBodyGyro-std-Y)
-*Mean(fBodyGyro-std-Z)
-*Mean(fBodyAccMag-std)
-*Mean(fBodyAccJerkMag-std)
-*Mean(fBodyGyroMag-std)
-*Mean(fBodyGyroJerkMag-std)
+* Participant					              unitless
+* Activity					                unitless
+* Mean(tBodyAcc-mean-X)			        g
+* Mean(tBodyAcc-mean-Y)			        g
+* Mean(tBodyAcc-mean-Z)			        g
+* Mean(tGravityAcc-mean-X)			    g
+* Mean(tGravityAcc-mean-Y)			    g
+* Mean(tGravityAcc-mean-Z)			    g
+* Mean(tBodyAccJerk-mean-X)		      g/sec
+* Mean(tBodyAccJerk-mean-Y)		      g/sec
+* Mean(tBodyAccJerk-mean-Z)		      g/sec
+* Mean(tBodyGyro-mean-X)			      rad/sec			
+* Mean(tBodyGyro-mean-Y)			      rad/sec
+* Mean(tBodyGyro-mean-Z)			      rad/sec
+* Mean(tBodyGyroJerk-mean-X)		    rad/sec^2
+* Mean(tBodyGyroJerk-mean-Y)		    rad/sec^2
+* Mean(tBodyGyroJerk-mean-Z)		    rad/sec^2
+* Mean(tBodyAccMag-mean)			      unitless
+* Mean(tGravityAccMag-mean)		      unitless
+* Mean(tBodyAccJerkMag-mean)		    unitless
+* Mean(tBodyGyroMag-mean)		        unitless
+* Mean(tBodyGyroJerkMag-mean)		    unitless
+* Mean(fBodyAcc-mean-X)
+* Mean(fBodyAcc-mean-Y)
+* Mean(fBodyAcc-mean-Z)
+* Mean(fBodyAcc-meanFreq-X)
+* Mean(fBodyAcc-meanFreq-Y)
+* Mean(fBodyAcc-meanFreq-Z)
+* Mean(fBodyAccJerk-mean-X)
+* Mean(fBodyAccJerk-mean-Y)
+* Mean(fBodyAccJerk-mean-Z)
+* Mean(fBodyAccJerk-meanFreq-X)
+* Mean(fBodyAccJerk-meanFreq-Y)
+* Mean(fBodyAccJerk-meanFreq-Z)
+* Mean(fBodyGyro-mean-X)
+* Mean(fBodyGyro-mean-Y)
+* Mean(fBodyGyro-mean-Z)
+* Mean(fBodyGyro-meanFreq-X)
+* Mean(fBodyGyro-meanFreq-Y)
+* Mean(fBodyGyro-meanFreq-Z)
+* Mean(fBodyAccMag-mean)
+* Mean(fBodyAccMag-meanFreq)
+* Mean(fBodyAccJerkMag-mean)
+* Mean(fBodyAccJerkMag-meanFreq)
+* Mean(fBodyGyroMag-mean)
+* Mean(fBodyGyroMag-meanFreq)
+* Mean(fBodyGyroJerkMag-mean)
+* Mean(fBodyGyroJerkMag-meanFreq)
+* Mean(tBodyAcc-std-X)			      g
+* Mean(tBodyAcc-std-Y)			      g
+* Mean(tBodyAcc-std-Z)			      g
+* Mean(tGravityAcc-std-X)			    g
+* Mean(tGravityAcc-std-Y)			    g
+* Mean(tGravityAcc-std-Z)			    g
+* Mean(tBodyAccJerk-std-X)			  g/sec
+* Mean(tBodyAccJerk-std-Y)			  g/sec
+* Mean(tBodyAccJerk-std-Z)			  g/sec
+* Mean(tBodyGyro-std-X)			      rad/sec
+* Mean(tBodyGyro-std-Y)			      rad/sec
+* Mean(tBodyGyro-std-Z)			      rad/sec
+* Mean(tBodyGyroJerk-std-X)		    rad/sec^2
+* Mean(tBodyGyroJerk-std-Y)		    rad/sec^2
+* Mean(tBodyGyroJerk-std-Z)			  rad/sec^2
+* Mean(tBodyAccMag-std)			      unitless
+* Mean(tGravityAccMag-std)			  unitless
+* Mean(tBodyAccJerkMag-std)		    unitless
+* Mean(tBodyGyroMag-std)			    unitless
+* Mean(tBodyGyroJerkMag-std)		  unitless
+* Mean(fBodyAcc-std-X)
+* Mean(fBodyAcc-std-Y)
+* Mean(fBodyAcc-std-Z)
+* Mean(fBodyAccJerk-std-X)
+* Mean(fBodyAccJerk-std-Y)
+* Mean(fBodyAccJerk-std-Z)
+* Mean(fBodyGyro-std-X)
+* Mean(fBodyGyro-std-Y)
+* Mean(fBodyGyro-std-Z)
+* Mean(fBodyAccMag-std)
+* Mean(fBodyAccJerkMag-std)
+* Mean(fBodyGyroMag-std)
+* Mean(fBodyGyroJerkMag-std)
 
 
