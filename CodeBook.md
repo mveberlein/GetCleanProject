@@ -10,31 +10,31 @@ A Fast Fourier Transform was applied to some measurements to yield fBodyAcc-XYZ,
 
 For the above-mentioned measurements, the mean and standard deviation (std) were calculated. These mean and standard deviation measurements are the only values that were retained in the intermediate data set from the original data. The tidy data set contains the means of the measurements in the intermediate data set. 
 
-The features were normalized and bounded in the interval [-1, 1]. 
+The features were normalized and bounded in the interval [-1, 1]. Therefore, they are all unitless values. 
 
-Variables in the tidy data set, along with their units of measurement:
-* Participant					              unitless
-* Activity					                unitless
-* Mean(tBodyAcc-mean-X)			        g
-* Mean(tBodyAcc-mean-Y)			        g
-* Mean(tBodyAcc-mean-Z)			        g
-* Mean(tGravityAcc-mean-X)			    g
-* Mean(tGravityAcc-mean-Y)			    g
-* Mean(tGravityAcc-mean-Z)			    g
-* Mean(tBodyAccJerk-mean-X)		      g/sec
-* Mean(tBodyAccJerk-mean-Y)		      g/sec
-* Mean(tBodyAccJerk-mean-Z)		      g/sec
-* Mean(tBodyGyro-mean-X)			      rad/sec			
-* Mean(tBodyGyro-mean-Y)			      rad/sec
-* Mean(tBodyGyro-mean-Z)			      rad/sec
-* Mean(tBodyGyroJerk-mean-X)		    rad/sec^2
-* Mean(tBodyGyroJerk-mean-Y)		    rad/sec^2
-* Mean(tBodyGyroJerk-mean-Z)		    rad/sec^2
-* Mean(tBodyAccMag-mean)			      unitless
-* Mean(tGravityAccMag-mean)		      unitless
-* Mean(tBodyAccJerkMag-mean)		    unitless
-* Mean(tBodyGyroMag-mean)		        unitless
-* Mean(tBodyGyroJerkMag-mean)		    unitless
+Variables in the tidy data set:
+* Participant					              
+* Activity					                
+* Mean(tBodyAcc-mean-X)			        
+* Mean(tBodyAcc-mean-Y)			        
+* Mean(tBodyAcc-mean-Z)			        
+* Mean(tGravityAcc-mean-X)			    
+* Mean(tGravityAcc-mean-Y)			    
+* Mean(tGravityAcc-mean-Z)			    
+* Mean(tBodyAccJerk-mean-X)		      
+* Mean(tBodyAccJerk-mean-Y)		     
+* Mean(tBodyAccJerk-mean-Z)		      
+* Mean(tBodyGyro-mean-X)			      	
+* Mean(tBodyGyro-mean-Y)			      
+* Mean(tBodyGyro-mean-Z)			      
+* Mean(tBodyGyroJerk-mean-X)		    
+* Mean(tBodyGyroJerk-mean-Y)		    
+* Mean(tBodyGyroJerk-mean-Z)		    
+* Mean(tBodyAccMag-mean)			      
+* Mean(tGravityAccMag-mean)		      
+* Mean(tBodyAccJerkMag-mean)		    
+* Mean(tBodyGyroMag-mean)		        
+* Mean(tBodyGyroJerkMag-mean)		    
 * Mean(fBodyAcc-mean-X)
 * Mean(fBodyAcc-mean-Y)
 * Mean(fBodyAcc-mean-Z)
@@ -61,26 +61,26 @@ Variables in the tidy data set, along with their units of measurement:
 * Mean(fBodyGyroMag-meanFreq)
 * Mean(fBodyGyroJerkMag-mean)
 * Mean(fBodyGyroJerkMag-meanFreq)
-* Mean(tBodyAcc-std-X)			      g
-* Mean(tBodyAcc-std-Y)			      g
-* Mean(tBodyAcc-std-Z)			      g
-* Mean(tGravityAcc-std-X)			    g
-* Mean(tGravityAcc-std-Y)			    g
-* Mean(tGravityAcc-std-Z)			    g
-* Mean(tBodyAccJerk-std-X)			  g/sec
-* Mean(tBodyAccJerk-std-Y)			  g/sec
-* Mean(tBodyAccJerk-std-Z)			  g/sec
-* Mean(tBodyGyro-std-X)			      rad/sec
-* Mean(tBodyGyro-std-Y)			      rad/sec
-* Mean(tBodyGyro-std-Z)			      rad/sec
-* Mean(tBodyGyroJerk-std-X)		    rad/sec^2
-* Mean(tBodyGyroJerk-std-Y)		    rad/sec^2
-* Mean(tBodyGyroJerk-std-Z)			  rad/sec^2
-* Mean(tBodyAccMag-std)			      unitless
-* Mean(tGravityAccMag-std)			  unitless
-* Mean(tBodyAccJerkMag-std)		    unitless
-* Mean(tBodyGyroMag-std)			    unitless
-* Mean(tBodyGyroJerkMag-std)		  unitless
+* Mean(tBodyAcc-std-X)			      
+* Mean(tBodyAcc-std-Y)			      
+* Mean(tBodyAcc-std-Z)			      
+* Mean(tGravityAcc-std-X)			    
+* Mean(tGravityAcc-std-Y)			    
+* Mean(tGravityAcc-std-Z)			    
+* Mean(tBodyAccJerk-std-X)			  
+* Mean(tBodyAccJerk-std-Y)			  
+* Mean(tBodyAccJerk-std-Z)			  
+* Mean(tBodyGyro-std-X)			      
+* Mean(tBodyGyro-std-Y)			      
+* Mean(tBodyGyro-std-Z)			      
+* Mean(tBodyGyroJerk-std-X)		    
+* Mean(tBodyGyroJerk-std-Y)		    
+* Mean(tBodyGyroJerk-std-Z)			  
+* Mean(tBodyAccMag-std)			      
+* Mean(tGravityAccMag-std)			  
+* Mean(tBodyAccJerkMag-std)		    
+* Mean(tBodyGyroMag-std)			    
+* Mean(tBodyGyroJerkMag-std)		  
 * Mean(fBodyAcc-std-X)
 * Mean(fBodyAcc-std-Y)
 * Mean(fBodyAcc-std-Z)
